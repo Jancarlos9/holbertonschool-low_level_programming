@@ -1,21 +1,18 @@
 #include <stdio.h>
 
 /**
- *main alphabet in lowercase
- Return Always (0)
+ * main alphabet in lowercase
+ * Return Always (0)
  */
 int main(void)
 {
-	char letter a;
+	char letter;
 
-	if (a < z)
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
 		putchar (letter);
-		letter++;
 	}
-	{
-		putchar('\n');
-	}
+	putchar('\n');
 	return (0);
 }
 
